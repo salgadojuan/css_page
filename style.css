@@ -1,0 +1,98 @@
+html{
+    background-color:rgba(177, 173, 173, 0.529) ;
+}
+
+
+.header{
+    font-style:italic;
+    color: rgb(199, 172, 53);
+    background-color:rgb(37, 19, 19);
+    
+}
+
+#profile-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.underline{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+#profile-pic img{
+    
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+strong:hover{
+    color: rgb(167, 112, 9);
+    
+}
+
+
+
+a.no-style, a.no-style:hover{
+    color: inherit;
+    text-decoration: underline;
+}
+
+#profile-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#about-me{
+    text-align: justify;
+    font-size: 1.2em;
+
+}
+
+#skills{
+    text-align: justify;
+    font-size: 1.2em;
+}
+#li{
+    list-style: none;
+}
+
+#li li:hover{
+    color: rgb(167, 112, 9);
+}
+
+
+a.no-style:hover {
+    text-decoration: underline; 
+}
+
+
+
+#li li::before {
+    content: '•'; 
+    color: rgb(199, 172, 53); 
+    font-size: 20px; 
+    margin-right: 9px; 
+    display: inline-block; 
+}
+
+footer{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    background-color: rgb(37, 19, 19);
+    color: #fff;
+}
